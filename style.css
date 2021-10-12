@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-itmes {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar-itmes > li {
+  padding: 20px;
+}
+
+nav > span {
+  padding: 6px 30px;
+  border: 1px solid #00b6f0;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #00b6f0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container {
+  min-height: 70em;
+  position: relative;
+  background-image: url("./img/DesktopHEADER.jpg"),
+    linear-gradient(#ffff, rgba(0, 225, 198, 0.3), #ffff);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-box {
+  position: absolute;
+  display: block;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box > h1 {
+  font-size: 72px;
+  color: #112d57;
+}
+
+.text-box > p {
+  margin: 30px 0px;
+  font-size: 24px;
+  color: #5c5c5c;
+}
+
+.co-buttons {
+  margin: 6em 0px;
+}
+
+.primary-btn {
+  margin: 10px;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #00b6f0;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  margin: 10px;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #ffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.border {
+  border: 1px solid #00b6f0;
+  color: #00b6f0;
+}
+
+.dashboard {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24em;
+}
+
+.download-section > span {
+  font-size: 36px;
+  color: #f3cd03;
+}
+
+.download-section > h1 {
+  font-size: 56px;
+}
+
+.download-section > p {
+  color: #5c5c5c;
+  font-size: 24px;
+}
+
+.feature-containerA {
+  background-image: url("./img/Vector2.svg");
+  min-height: 31em;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 7em;
+}
+
+.feature-containerB {
+  background-image: url("./img/Vector3.svg");
+  min-height: 32em;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 7em;
+}
+
+.feature-details {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.feature-details > h3 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.feature-details > p {
+  font-size: 24px;
+  color: #5c5c5c;
+  padding-bottom: 20px;
+}
+
+.feature-details > span {
+  color: #00b6f0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.work-progress {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-progress > h1 {
+  font-size: 56px;
+  padding-bottom: 16px;
+}
+
+.work-progress > p {
+  color: #5c5c5c;
+  font-size: 19px;
+  padding-bottom: 80px;
+}
+
+.progress {
+  background-color: #f3f5f8;
+  border-radius: 20px;
+  height: 15px;
+  width: 70%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.progress-done {
+  background-color: #00b6f0;
+  border-radius: 20px;
+  height: 100%;
+  width: 50%;
+}
+
+.progress-number {
+  width: 70%;
+  text-align: right;
+  margin-top: -25px;
+  margin-bottom: 5em;
+}
+
+.progress-text {
+  width: 70%;
+  text-align: left;
+}
+
+.testimonials-container {
+  margin-top: 6em;
+  min-height: 35em;
+  background-image: url("./img/Vector4.svg"), url("./img/Vector5.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10em, 0; */
+}
+
+.testimonials {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials > h1 {
+  font-size: 36px;
+}
+
+.testimonials > img {
+  margin: 40px 0;
+}
+
+.testimonials > p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.client-details {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing {
+  min-height: 20em;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #182333;
+  color: #ffff;
+}
+
+.pricing-details {
+  flex: 0.5;
+}
+
+.pricing-details > h1 {
+  font-size: 56px;
+  padding-bottom: 20px;
+}
+.pricing-details > p {
+  font-size: 19px;
+}
